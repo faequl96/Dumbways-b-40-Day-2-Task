@@ -19,15 +19,21 @@ body {
 }
 
 nav {
+    width: 100vw;
+    background-color: rgb(251, 251, 251);
+}
+
+.kotakNav {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 8px 0;
     display: flex;
     justify-content: space-between;
-    padding: 8px 230px;
     background-color: rgb(251, 251, 251);
 }
 
 .navigasi {
-    display: flex;
-    flex: 50%;
+    width: 50%;
 }
 
 .navigator {
@@ -43,6 +49,12 @@ nav {
 .navigator li a {
     color: #333;
     font-size: 1.2rem;
+}
+
+.navigator li:nth-child(1) a {
+    display: block;
+    width: 44px;
+    background-color: rgb(234, 226, 8);
 }
 
 .navigator li:nth-child(2) a {
